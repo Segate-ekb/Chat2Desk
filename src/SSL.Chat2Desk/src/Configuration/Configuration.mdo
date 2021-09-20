@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="cdcead49-aa83-4528-b30e-d782b84e1d2c">
+  <name>Chat2Desk</name>
+  <synonym>
+    <key>ru</key>
+    <value>Chat2 desk</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <managedApplicationModule>Extended</managedApplicationModule>
+    <sessionModule>Extended</sessionModule>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="de8d925f-54d0-495b-b2df-b7c679d9c396"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="7bd0d38f-3ce7-442f-a98c-8c571690c17c"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="b53c028c-d02a-4408-864e-cdfd4ca811b5"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="cde4845e-9109-4401-a558-1334d765c67f"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="daffdd7c-0fad-4425-b7ee-1ec46b1d24b3"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="fbdc43e8-9ba3-4625-ab8d-a8933d9190ca"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="eba244e8-3949-4767-acfb-6fe82df20afc"/>
+  <namePrefix>C2D_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.12</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <version>2.2</version>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.19</compatibilityMode>
+  <languages uuid="ac2d8ae0-b64d-41cc-8bc3-21b115ff5977">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension"/>
+  </languages>
+  <subsystems>Subsystem.C2D_РаботаСChat2Desk</subsystems>
+  <commonPictures>CommonPicture.c2d_РазделChat2Desk</commonPictures>
+  <commonPictures>CommonPicture.c2d_Chat2Desk</commonPictures>
+  <commonPictures>CommonPicture.C2D_ТелефонныйЗвонок</commonPictures>
+  <commonPictures>CommonPicture.C2D_ЭлектроннаяПочта</commonPictures>
+  <commonPictures>CommonPicture.C2D_Мессенджеры</commonPictures>
+  <commonPictures>CommonPicture.C2D_КоллекцияПиктограммПараметрыШаблонаСообщения</commonPictures>
+  <commonPictures>CommonPicture.C2D_ИконкиМессенджеров</commonPictures>
+  <commonPictures>CommonPicture.C2D_КоллекцияПиктограммФайлов</commonPictures>
+  <commonTemplates>CommonTemplate.Rex64</commonTemplates>
+  <commonModules>CommonModule.C2D_ВзаимодействиеСApi</commonModules>
+  <commonModules>CommonModule.C2D_ВзаимодействиеСApiПовтИсп</commonModules>
+  <commonModules>CommonModule.C2D_ВзаимодействиеСApiСлужебный</commonModules>
+  <commonModules>CommonModule.C2D_ВзаимодействиеСC2DКлиентСервер</commonModules>
+  <commonModules>CommonModule.C2D_ВзаимодействиеСChat2DeskВызовСервера</commonModules>
+  <commonModules>CommonModule.C2D_ВзаимодействиеСКэшированиемПовтИсп</commonModules>
+  <commonModules>CommonModule.C2D_Глобальный</commonModules>
+  <commonModules>CommonModule.C2D_Коннектор</commonModules>
+  <commonModules>CommonModule.C2D_ПодпискиНаСобытия</commonModules>
+  <commonModules>CommonModule.C2D_ШаблоныСообщений</commonModules>
+  <commonModules>CommonModule.C2D_ШаблоныСообщенийКлиент</commonModules>
+  <commonModules>CommonModule.C2D_ШаблоныСообщенийКлиентСервер</commonModules>
+  <commonModules>CommonModule.C2D_ШаблоныСообщенийПереопределяемый</commonModules>
+  <commonModules>CommonModule.C2D_ШаблоныСообщенийСервер</commonModules>
+  <commonModules>CommonModule.C2D_ШаблоныСообщенийСлужебный</commonModules>
+  <commonModules>CommonModule.C2D_ШаблоныСообщенийСлужебныйПовтИсп</commonModules>
+  <commonModules>CommonModule.ПодключаемыеКоманды</commonModules>
+  <commonModules>CommonModule.C2D_ИнтеграцияВКонфигурациюКлиент</commonModules>
+  <commonModules>CommonModule.C2D_ИнтеграцияВКонфигурациюВызовСервера</commonModules>
+  <commonModules>CommonModule.C2D_РаботаСГрафическимиСхемамиСервер</commonModules>
+  <commonModules>CommonModule.C2D_РаботаСГрафическимиСхемамиПовтИсп</commonModules>
+  <httpServices>HTTPService.c2d_add_webhook</httpServices>
+  <httpServices>HTTPService.C2D_BasicHook</httpServices>
+  <httpServices>HTTPService.C2D_attachements</httpServices>
+  <commonCommands>CommonCommand.C2D_ОтправитьДанныеЧерезC2D</commonCommands>
+  <commonCommands>CommonCommand.C2D_ОткрытьЧатКлиент</commonCommands>
+  <commonForms>CommonForm.ЧатКлиент</commonForms>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.C2D_Аккаунты</catalogs>
+  <catalogs>Catalog.ДополнительныеОтчетыИОбработки</catalogs>
+  <catalogs>Catalog.C2D_WebHooks</catalogs>
+  <catalogs>Catalog.C2D_ШаблоныСообщений</catalogs>
+  <catalogs>Catalog.ИдентификаторыОбъектовМетаданных</catalogs>
+  <catalogs>Catalog.C2D_ШаблоныСообщенийПрисоединенныеФайлы</catalogs>
+  <catalogs>Catalog.C2D_Вложения</catalogs>
+  <catalogs>Catalog.C2D_Channels</catalogs>
+  <catalogs>Catalog.C2D_Transports</catalogs>
+  <catalogs>Catalog.C2D_ЧатБоты</catalogs>
+  <enums>Enum.C2D_ТипыОбъектов</enums>
+  <enums>Enum.C2D_HttpМетоды</enums>
+  <enums>Enum.ТипыКонтактнойИнформации</enums>
+  <enums>Enum.C2d_СпособыРедактированияЭлектронныхПисем</enums>
+  <enums>Enum.C2D_ТипыЭлементовГрафическихСхем</enums>
+  <dataProcessors>DataProcessor.C2D_ПомошникНастройки</dataProcessors>
+  <informationRegisters>InformationRegister.C2D_Диалоги</informationRegisters>
+  <informationRegisters>InformationRegister.C2D_Клиенты</informationRegisters>
+  <informationRegisters>InformationRegister.C2D_Кэш</informationRegisters>
+  <informationRegisters>InformationRegister.C2D_ЛогиОбработкиWebHook</informationRegisters>
+  <informationRegisters>InformationRegister.C2D_ОповещенияОператоров</informationRegisters>
+  <informationRegisters>InformationRegister.C2D_Операторы</informationRegisters>
+  <informationRegisters>InformationRegister.C2D_Сообщения</informationRegisters>
+  <informationRegisters>InformationRegister.C2D_ТранспортыКлиентов</informationRegisters>
+  <informationRegisters>InformationRegister.C2D_ТипыДанныхШаблонов</informationRegisters>
+  <informationRegisters>InformationRegister.C2D_ТипыКлиентов</informationRegisters>
+</mdclass:Configuration>

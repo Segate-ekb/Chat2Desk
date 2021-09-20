@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e1e7fc53-0ede-4570-bf44-c43f5c236a7c">
+  <producedTypes>
+    <objectType typeId="336606c9-2796-4df0-a65c-485df070c9c7" valueTypeId="21e11aee-b75a-4d85-9454-a9a77a0c62d9"/>
+    <managerType typeId="a40b929f-9829-4bf4-9d10-f96344d30078" valueTypeId="216944f8-69e2-43e3-a4fa-88fdabc0a0e6"/>
+  </producedTypes>
+  <name>C2D_ПомошникНастройки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Помошник настройки</value>
+  </synonym>
+  <comment>Помошник настройки интеграции с chat2desk</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.C2D_ПомошникНастройки.Form.Форма</defaultForm>
+  <forms uuid="8a49f979-32a6-4e85-9463-50dcbd8823f6">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="3045115f-6b7a-47d6-8dd4-7811b3ceb938">
+    <name>РаботаСChat2Desk</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работа с Chat2Desk</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:DataProcessor>

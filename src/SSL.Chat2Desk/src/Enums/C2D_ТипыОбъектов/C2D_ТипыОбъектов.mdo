@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="27d32e08-d9c3-42b1-be98-989d2cba27fc">
+  <producedTypes>
+    <refType typeId="6e4c1d5a-50bf-462f-a4ca-514c5c80ec69" valueTypeId="cc79135c-ecaf-4991-9af2-d73e7d9ff48f"/>
+    <listType typeId="deb7fb72-0c55-4a04-bd93-eb00371263c2" valueTypeId="dff04112-85ea-4fa0-8548-03ef0dd8df7c"/>
+    <managerType typeId="8e663693-6f25-42e4-9079-821b02d0a27a" valueTypeId="2bde8249-a850-47ca-b528-8eaffd2c6825"/>
+  </producedTypes>
+  <name>C2D_ТипыОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы объектов (C2D)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4a93e3af-b209-4cd6-9cbe-941b7faf86d1">
+    <name>Клиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиенты</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="603b3a64-1b32-42b4-9e08-6c1a2a0c5048">
+    <name>Оператор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Операторы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f6110efd-554c-4ad8-b2f8-0d7111c7bd5d">
+    <name>Диалог</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диалог</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="654de94a-6470-48ae-a4c2-d874244203f6">
+    <name>Сообщение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сообщение</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

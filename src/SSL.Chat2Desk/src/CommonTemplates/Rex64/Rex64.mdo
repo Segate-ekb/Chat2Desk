@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7d6548d3-1108-4893-a946-4abb420eb718">
+  <name>Rex64</name>
+  <synonym>
+    <key>ru</key>
+    <value>Rex64</value>
+  </synonym>
+  <templateType>AddIn</templateType>
+</mdclass:CommonTemplate>

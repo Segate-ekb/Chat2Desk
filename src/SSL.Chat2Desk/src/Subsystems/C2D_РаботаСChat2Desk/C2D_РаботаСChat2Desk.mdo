@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dac3762d-3490-4eec-aae5-7c533ec7cc4b">
+  <name>C2D_РаботаСChat2Desk</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с Chat2Desk</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.c2d_РазделChat2Desk</picture>
+  </picture>
+  <content>CommonModule.C2D_ВзаимодействиеСApi</content>
+  <content>CommonModule.C2D_ВзаимодействиеСApiПовтИсп</content>
+  <content>CommonPicture.c2d_РазделChat2Desk</content>
+  <content>CommonPicture.c2d_Chat2Desk</content>
+  <content>Catalog.C2D_Аккаунты</content>
+  <content>CommonModule.C2D_ВзаимодействиеСC2DКлиентСервер</content>
+  <content>InformationRegister.C2D_Клиенты</content>
+  <content>CommonModule.C2D_Глобальный</content>
+  <content>CommonModule.C2D_ВзаимодействиеСChat2DeskВызовСервера</content>
+  <content>CommonCommand.C2D_ОтправитьДанныеЧерезC2D</content>
+  <content>HTTPService.c2d_add_webhook</content>
+  <content>CommonPicture.C2D_ТелефонныйЗвонок</content>
+  <content>CommonPicture.C2D_ЭлектроннаяПочта</content>
+  <content>CommonModule.C2D_ВзаимодействиеСКэшированиемПовтИсп</content>
+  <content>CommonModule.C2D_ВзаимодействиеСApiСлужебный</content>
+  <content>Enum.C2D_ТипыОбъектов</content>
+  <content>InformationRegister.C2D_Сообщения</content>
+  <content>InformationRegister.C2D_Кэш</content>
+  <content>Catalog.C2D_WebHooks</content>
+  <content>Enum.C2D_HttpМетоды</content>
+  <content>InformationRegister.C2D_Операторы</content>
+  <content>HTTPService.C2D_BasicHook</content>
+  <content>CommonForm.ЧатКлиент</content>
+  <content>InformationRegister.C2D_Диалоги</content>
+  <content>DataProcessor.C2D_ПомошникНастройки</content>
+  <content>CommonModule.C2D_Коннектор</content>
+  <content>CommonModule.C2D_ПодпискиНаСобытия</content>
+  <content>CommonPicture.C2D_Мессенджеры</content>
+  <content>InformationRegister.C2D_ОповещенияОператоров</content>
+  <content>InformationRegister.C2D_ТранспортыКлиентов</content>
+  <content>CommonCommand.C2D_ОткрытьЧатКлиент</content>
+  <content>InformationRegister.C2D_ЛогиОбработкиWebHook</content>
+  <content>Catalog.C2D_ШаблоныСообщений</content>
+  <content>Catalog.C2D_ШаблоныСообщенийПрисоединенныеФайлы</content>
+  <content>InformationRegister.C2D_ТипыДанныхШаблонов</content>
+  <content>HTTPService.C2D_attachements</content>
+  <content>Catalog.C2D_Вложения</content>
+  <content>CommonModule.C2D_ШаблоныСообщений</content>
+  <content>CommonModule.C2D_ШаблоныСообщенийКлиент</content>
+  <content>CommonModule.C2D_ШаблоныСообщенийКлиентСервер</content>
+  <content>CommonModule.C2D_ШаблоныСообщенийПереопределяемый</content>
+  <content>CommonModule.C2D_ШаблоныСообщенийСервер</content>
+  <content>CommonModule.C2D_ШаблоныСообщенийСлужебный</content>
+  <content>CommonModule.C2D_ШаблоныСообщенийСлужебныйПовтИсп</content>
+  <content>CommonPicture.C2D_КоллекцияПиктограммПараметрыШаблонаСообщения</content>
+  <content>CommonPicture.C2D_ИконкиМессенджеров</content>
+  <content>CommonPicture.C2D_КоллекцияПиктограммФайлов</content>
+  <content>Enum.C2d_СпособыРедактированияЭлектронныхПисем</content>
+  <content>InformationRegister.C2D_ТипыКлиентов</content>
+  <content>Catalog.C2D_ЧатБоты</content>
+</mdclass:Subsystem>

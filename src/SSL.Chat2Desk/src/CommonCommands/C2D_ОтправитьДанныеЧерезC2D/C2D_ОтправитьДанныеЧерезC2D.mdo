@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5d9e99c7-b34b-4fab-b9da-9808c70a8133">
+  <name>C2D_ОтправитьДанныеЧерезC2D</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отправить данные через Chat2Desk</value>
+  </synonym>
+  <group>FormCommandBarImportant</group>
+  <commandParameterType/>
+  <representation>PictureAndText</representation>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.c2d_Chat2Desk</picture>
+  </picture>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

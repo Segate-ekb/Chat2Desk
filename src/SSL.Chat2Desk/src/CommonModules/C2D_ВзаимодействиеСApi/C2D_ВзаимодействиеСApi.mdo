@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9ff1023a-3549-49c4-9953-e5081875a903">
+  <name>C2D_ВзаимодействиеСApi</name>
+  <synonym>
+    <key>ru</key>
+    <value>C2 d взаимодействие с api</value>
+  </synonym>
+  <server>true</server>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

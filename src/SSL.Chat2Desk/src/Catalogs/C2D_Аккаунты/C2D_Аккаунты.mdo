@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="80aebc43-07c5-41e0-887a-5a6b3db06d92">
+  <producedTypes>
+    <objectType typeId="42f06c09-c85a-4c48-8515-6cae1dfad167" valueTypeId="f6b19fc0-8949-4cfc-94a3-c617cd8ee795"/>
+    <refType typeId="a4a73019-146c-4710-823f-1e2a89926fa0" valueTypeId="61854eb0-c30f-4dc0-84e5-bba3d5cd1877"/>
+    <selectionType typeId="bedaf1b0-daca-4048-9c72-16cac2e9636e" valueTypeId="49b41cee-e168-4aea-b589-82f41ec529a8"/>
+    <listType typeId="f57a3ae2-3ef2-4628-8305-c3777be9863e" valueTypeId="84b091f3-146b-4871-b0d5-9a672eb3ab99"/>
+    <managerType typeId="de5a94f4-7f51-41ab-ae2b-9bbd62f6a45c" valueTypeId="c39f1f50-131b-4b95-b9e6-63d574d1f3f9"/>
+  </producedTypes>
+  <name>C2D_Аккаунты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аккаунты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.C2D_Аккаунты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.C2D_Аккаунты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefinedDataUpdate>AutoUpdate</predefinedDataUpdate>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.C2D_Аккаунты.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="56baad9f-c3e2-4f56-bd78-5501d0398273">
+    <name>НастройкаЗавершена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка завершена</value>
+    </synonym>
+    <comment>Реквизит на самом деле не относится напрямую к аккаунту. показывает завершена ли настройка.</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="32f69c9b-2e64-490c-a472-ff62bebcc988">
+    <name>C2D_СерверApi</name>
+    <synonym>
+      <key>ru</key>
+      <value>Cервер API</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="5960638d-2f65-43d8-842f-1f8a4da0dcb9">
+    <name>C2D_ПортСервераAPI</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порт</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:NumberValue">
+      <value>443</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="b298c84e-d2b1-4754-b0f1-d6d62444f415">
+    <name>C2D_AuthToken</name>
+    <synonym>
+      <key>ru</key>
+      <value>AuthToken</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="7eeee9ac-2973-44f1-b778-86285a5ebe35">
+    <name>C2D_АдресПубликации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес публикации webhook</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1024</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="baceace7-4b22-402f-91b9-a6bec19a1c01">
+    <name>ПользовательВебхука</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bd0c978b-89ff-4e68-84d1-77ce96dd0401">
+    <name>Пароль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <passwordMode>true</passwordMode>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="af0721bd-b0ae-438b-bb3b-25bb79d031eb">
+    <name>IDWebHook</name>
+    <synonym>
+      <key>ru</key>
+      <value>IDWeb hook</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="425528a5-3897-40c0-b381-62b09a56ac1b">
+    <producedTypes>
+      <objectType typeId="10bfe4fc-7f4d-4734-a8ab-f8d898ed53e0" valueTypeId="9b9a5442-dd88-44c2-8fc0-d95eac0dc927"/>
+      <rowType typeId="bc822206-e714-45ff-a27d-e17f0acf8cd2" valueTypeId="092dadd8-4f38-4ef4-8955-5dc98a75e09e"/>
+    </producedTypes>
+    <name>Транспорты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Транспорты</value>
+    </synonym>
+    <attributes uuid="d65b484b-d8b9-480f-9755-aea1274dde58">
+      <name>channel</name>
+      <synonym>
+        <key>ru</key>
+        <value>Channel</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.C2D_Channels</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="eeed8c1d-ac91-4581-99e7-030bcd7ea7f4">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

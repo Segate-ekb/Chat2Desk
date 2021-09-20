@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7859e27e-b48d-4f14-898e-d7eb5e46a599">
+  <producedTypes>
+    <objectType typeId="132e4f6b-1e96-4acf-aad3-db7537538eac" valueTypeId="f5cc7265-422b-4b7e-8997-844a6d506c04"/>
+    <refType typeId="d32fd489-f2d0-4bc1-a7e9-fca3fe750601" valueTypeId="2b5db25c-faa4-4d89-a18a-4096fe48e656"/>
+    <selectionType typeId="5be2caff-b092-40f8-bee7-f821093bbdc1" valueTypeId="c9d558ba-8860-4886-8db1-7539d5262bb0"/>
+    <listType typeId="74eee052-52a0-4b86-a80f-08901757db6e" valueTypeId="4aa07a0c-b34a-477e-8336-8cf8ee11e757"/>
+    <managerType typeId="64a00f95-78f4-44db-b139-1ff27494e997" valueTypeId="ce7fd8b6-95bb-4c8e-a229-6533bd83f64f"/>
+  </producedTypes>
+  <name>C2D_ЧатБоты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чат боты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.C2D_ЧатБоты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.C2D_ЧатБоты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.C2D_ЧатБоты.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="3c0ba11d-c7fc-40a5-b54e-65c99663e76e">
+    <name>КартаМаршрутаXML</name>
+    <synonym>
+      <key>ru</key>
+      <value>Карта маршрута XML</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="208ffef0-3da4-4ca4-8032-f8d24f502faa">
+    <producedTypes>
+      <objectType typeId="88b404ff-8a84-4e6d-8157-ff0bf814e969" valueTypeId="3df29d98-469c-439b-a13d-b26ead97f517"/>
+      <rowType typeId="50690a95-8c6f-428f-8e94-18f512413428" valueTypeId="5ccf13d5-915a-46ea-8bf9-d605325c5073"/>
+    </producedTypes>
+    <name>Транспорты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Транспорты</value>
+    </synonym>
+    <attributes uuid="89e68c44-40b1-46cc-92fd-3084759a50d9">
+      <name>Транспорт</name>
+      <synonym>
+        <key>ru</key>
+        <value>Транспорт</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.C2D_Transports</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="a29135c7-ed17-49a9-a182-420b214b6161">
+    <producedTypes>
+      <objectType typeId="e9979e2d-e943-4c07-a45f-13fc5de1833f" valueTypeId="bf7e8f47-bafa-415a-9698-7268a02dba2e"/>
+      <rowType typeId="91437a11-70a6-4264-9d6e-bc9333725f95" valueTypeId="db159d7f-b746-4446-b172-8b8d49b21f00"/>
+    </producedTypes>
+    <name>ТочкиМаршрута</name>
+    <synonym>
+      <key>ru</key>
+      <value>Точки маршрута</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="01e45a19-7636-492b-b66a-50a12b4691d0">
+      <name>ИдентификаторЭлемента</name>
+      <synonym>
+        <key>ru</key>
+        <value>Идентификатор элемента</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>3</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="48550976-3193-4f49-91a4-5ecd21e7f173">
+      <name>ТипЭлемента</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип элемента</value>
+      </synonym>
+      <type>
+        <types>EnumRef.C2D_ТипыЭлементовГрафическихСхем</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="24b7cd34-8c38-4612-938a-2541ba6a4b4d">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7d409fdf-92e9-4567-abe3-41e1ba820b5f">
+  <producedTypes>
+    <objectType typeId="8528a9fb-af00-4153-bbcf-f6560e828650" valueTypeId="a33ef17d-1f5d-494a-b1da-22e09890b9c3"/>
+    <refType typeId="b9d1d491-2921-4772-bdf8-3420077a6e57" valueTypeId="d6a95852-6599-4bc6-aefc-aa0e6fb682d3"/>
+    <selectionType typeId="aeeb5cf8-562c-4564-aaba-d0a39dab8e50" valueTypeId="1e9fb0f2-a8bb-451e-93e5-5686e9f0cf29"/>
+    <listType typeId="66500336-b947-4c2e-802f-c1bd8504e9be" valueTypeId="2b69e2db-0551-4f53-84a7-56d52563b505"/>
+    <managerType typeId="0dfe47e1-d006-4ab3-a6cd-76e177bfa17c" valueTypeId="2e52368c-6d43-4ac7-a942-282d7a15a995"/>
+  </producedTypes>
+  <name>C2D_Transports</name>
+  <synonym>
+    <key>ru</key>
+    <value>Транспорты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.C2D_Transports.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.C2D_Transports.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.C2D_Channels</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.C2D_Transports.Form.ФормаСписка</defaultListForm>
+  <forms uuid="e47ca671-eedf-4ad5-9304-24b418415c91">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

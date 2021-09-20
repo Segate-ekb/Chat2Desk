@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3cf3bd1e-519d-4765-8854-98f5e2be3e51">
+  <producedTypes>
+    <objectType typeId="7e93dfdc-051f-4860-a341-a2bd7cbfafd2" valueTypeId="c5f14605-f106-49a6-896f-a5460e216676"/>
+    <refType typeId="6e8a11a8-2203-4215-aa81-c3fcacc95599" valueTypeId="24034bd9-2159-4c92-86e3-730364151390"/>
+    <selectionType typeId="de9adada-f4da-490a-bfc8-2c09efe835b8" valueTypeId="abe3e64d-8ff0-44a1-841e-8ec717e4639e"/>
+    <listType typeId="01c89157-bc90-4599-b89f-ed7819b84062" valueTypeId="838b8640-2a57-44ee-a117-73217a9a3fda"/>
+    <managerType typeId="a6897a02-cd3b-4741-b0c9-116245f2e852" valueTypeId="3ecf9f1f-ce1e-4c44-87d8-7d3ac2998df4"/>
+  </producedTypes>
+  <name>C2D_WebHooks</name>
+  <synonym>
+    <key>ru</key>
+    <value>WebHooks</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.C2D_WebHooks.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.C2D_WebHooks.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.C2D_WebHooks.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.C2D_WebHooks.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="ce3221ac-6f86-418a-be71-9fe6a1bd8a50">
+    <name>ИмяМетода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя метода</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="35508b4f-1524-41cb-9a02-d05650bd9446">
+    <name>HTTPМетод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип запроса</value>
+    </synonym>
+    <type>
+      <types>EnumRef.C2D_HttpМетоды</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.C2D_HttpМетоды.EnumValue.POST</value>
+    </fillValue>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8793a958-1ab1-4c97-be6e-cfc644da1924">
+    <name>КодМетода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код метода</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <extendedEdit>true</extendedEdit>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5ca5269e-87e7-4d63-b016-323f1fc92f7e">
+    <name>IDWebHook</name>
+    <synonym>
+      <key>ru</key>
+      <value>IDWeb hook</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="7e60329e-6164-4fb3-bdfa-00831f418ede">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="da9af64a-d13c-4438-b011-bfef8db2f33d">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="7057f15b-8c11-4059-8c76-ff5f94c082f2">
+    <name>POST_inbox</name>
+    <synonym>
+      <key>ru</key>
+      <value>POST inbox</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:Catalog>

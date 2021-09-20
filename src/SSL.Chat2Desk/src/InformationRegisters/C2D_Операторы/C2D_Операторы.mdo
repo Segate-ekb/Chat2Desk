@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7a05312c-9fc2-4d9e-9bfa-23a10ee76652">
+  <producedTypes>
+    <selectionType typeId="b393989c-a57e-4287-b3de-f58ad079932b" valueTypeId="e809c94c-1a50-4b4f-9dda-867b1ef6d744"/>
+    <listType typeId="b38aed7b-65a7-45d7-9c92-83c549edfa22" valueTypeId="bad5f710-a5e0-482d-9274-9c3b0840e451"/>
+    <managerType typeId="1621d8e0-9b25-4ab5-871c-c370bb7910a1" valueTypeId="8fc67721-f8c5-48d7-afb2-79b4f89b9720"/>
+    <recordSetType typeId="6daf7402-3078-4133-b6c1-9bbdd9738b55" valueTypeId="9dae8edd-61a6-4f30-8935-7537ba2ae7f7"/>
+    <recordKeyType typeId="2c81d86a-58c0-42e2-95a4-d38c5a73c5e3" valueTypeId="3d996245-2b61-44ba-8dd4-cdf97857c8c0"/>
+    <recordType typeId="f625fc9c-69a7-46d8-951a-cbf08300839b" valueTypeId="d4813ee2-af60-4fba-b0fd-ff504fadf283"/>
+    <recordManagerType typeId="e5f755d9-2a63-4ce0-8002-461abea8249c" valueTypeId="b87ee038-907f-4a0b-98b3-55dd876170fb"/>
+  </producedTypes>
+  <name>C2D_Операторы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Операторы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.C2D_Операторы.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="1455c6f9-d571-4421-8e51-1995bbceb7ca">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="fbb4c9a9-1b5b-4353-b250-1d0abd003f9d">
+    <name>avatar</name>
+    <synonym>
+      <key>ru</key>
+      <value>Avatar</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="f7475c82-dc16-45a2-a446-34a7977066a6">
+    <name>email</name>
+    <synonym>
+      <key>ru</key>
+      <value>Email</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="fc79feac-1907-4b8a-bbd5-0dce65ae0304">
+    <name>phone</name>
+    <synonym>
+      <key>ru</key>
+      <value>Phone</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="42e01ee3-8cdf-427d-b410-7dc8df35e3b0">
+    <name>first_name</name>
+    <synonym>
+      <key>ru</key>
+      <value>First name</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="8c7435f9-984b-45b2-848e-3b74352224d7">
+    <name>last_name</name>
+    <synonym>
+      <key>ru</key>
+      <value>Last name</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="e988dd28-8d75-48f4-9718-bb1233842e65">
+    <name>password</name>
+    <synonym>
+      <key>ru</key>
+      <value>Password</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="b6327e19-213f-4c24-a685-d91d6a36970a">
+    <name>ID</name>
+    <synonym>
+      <key>ru</key>
+      <value>ID</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="783f6cb5-08ed-4eb1-b721-b0ffb29fecd3">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="500e1539-7e99-4e6c-9b55-46a8a36a912e">
+  <producedTypes>
+    <objectType typeId="eb474a7e-0de7-4835-9d11-14dae33decfa" valueTypeId="ceaf1f6e-ee1b-450e-ba05-b281edb789be"/>
+    <refType typeId="7796b0f6-c527-49d6-b127-6ff6def8c8ea" valueTypeId="f1595ac1-f39f-4c46-a814-c8c76c4d5dcb"/>
+    <selectionType typeId="20dcf601-23be-4ec3-a9cb-a6dccaaf56bc" valueTypeId="8c9131b2-0bf3-48e8-b1cf-1dff571b10fb"/>
+    <listType typeId="674868cc-6649-4fa7-bc29-6ed7e8cee5b4" valueTypeId="70e27889-8f9e-4057-92a0-c1ebe7f31e9a"/>
+    <managerType typeId="d8f42e24-cb01-4b53-b32b-a10bb539799e" valueTypeId="40399e88-ff1b-4087-b360-b7f3480635f9"/>
+  </producedTypes>
+  <name>C2D_Channels</name>
+  <synonym>
+    <key>ru</key>
+    <value>C2 d channels</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.C2D_Channels.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.C2D_Channels.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.C2D_Аккаунты</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="071b3ded-1cbd-447f-afa5-aa9fd9fe1a3e">
+    <name>ChannelId</name>
+    <synonym>
+      <key>ru</key>
+      <value>Channel id</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a9518f18-9abd-4ed1-b963-a3ccf625afa2">
+  <name>C2D_ЭлектроннаяПочта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Электронная почта (C2D)</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+</mdclass:CommonPicture>

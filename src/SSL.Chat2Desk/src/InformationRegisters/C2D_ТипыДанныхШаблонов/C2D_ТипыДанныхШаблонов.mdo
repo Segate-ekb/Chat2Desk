@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="87bc652e-da26-4181-bfa7-428c067f80c8">
+  <producedTypes>
+    <selectionType typeId="723b0ca9-9e95-45a3-9520-cedddbf6d263" valueTypeId="91c24277-af51-4756-a8c5-94ab3b1d9d45"/>
+    <listType typeId="06ee417d-17f1-4ac0-9e27-af9bf50e29a1" valueTypeId="6d0b9e83-db91-49a1-b4d6-78ea76c89851"/>
+    <managerType typeId="72616d7d-27f9-4ffb-8824-943009cfadeb" valueTypeId="92554c37-5b78-472a-9a2e-d69580151b1e"/>
+    <recordSetType typeId="b90a3fb9-c907-45d1-b11f-4aebf5f2a7b5" valueTypeId="6a5b630e-c3b5-4359-9ded-c3af16557d2d"/>
+    <recordKeyType typeId="9b3a1e4c-cc2e-4a73-88d6-26760b033cae" valueTypeId="b6430f4a-c455-4383-a63f-780a36206152"/>
+    <recordType typeId="b5912eea-dc0d-43ec-a08c-1982adfe2fc5" valueTypeId="f0413c5a-cd69-4d9a-8088-4e2bd475f636"/>
+    <recordManagerType typeId="041e0ca8-ffb1-49b9-abff-eb76b189049b" valueTypeId="60ce6b89-63d4-46ef-bd9e-7a1b9e0e01a3"/>
+  </producedTypes>
+  <name>C2D_ТипыДанныхШаблонов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы данных в шаблонах</value>
+  </synonym>
+  <comment>Регистр будет хранить данные о выбранных типах данных для шаблонов</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.C2D_ТипыДанныхШаблонов.Form.EditTypeУправляемое</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="f9b2dbdc-d5f9-408a-b4fd-a6f3685c5dff">
+    <name>Типы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Типы</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="91849d91-65db-4038-8e9a-80f712b3f3c7">
+    <name>Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="2bee82cb-4ebc-4451-a8ea-9d9f415637a7">
+    <name>EditTypeУправляемое</name>
+    <comment>Версия 1.3 (со сменой представления списка типов)</comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="c0bcfca7-66e9-4240-8377-e6dfa24cdb4a">
+    <name>ОткрытьформуВыбораТиповШаблонов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Типы шаблонов</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:InformationRegister>

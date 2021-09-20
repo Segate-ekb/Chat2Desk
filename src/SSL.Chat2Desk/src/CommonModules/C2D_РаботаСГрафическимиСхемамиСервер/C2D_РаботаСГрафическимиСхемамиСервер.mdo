@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f57111a4-1939-4966-84f4-7b68b63c2fa3">
+  <name>C2D_РаботаСГрафическимиСхемамиСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>C2 d работа с графическими схемами сервер</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

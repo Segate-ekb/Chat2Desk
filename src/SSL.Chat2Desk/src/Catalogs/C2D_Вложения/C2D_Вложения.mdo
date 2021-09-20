@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f47edca0-50d4-4ba7-ac65-80037b9b0ecf">
+  <producedTypes>
+    <objectType typeId="0d9b4206-10ff-404f-9cf3-ff24d991b44f" valueTypeId="31604857-7cc7-4d92-bc8a-4088b89e6bb0"/>
+    <refType typeId="752b42e4-784d-4467-a7c1-bb0759c35dfc" valueTypeId="fe4c224e-5caa-4198-b4bd-ada6333aae3c"/>
+    <selectionType typeId="2941b9ce-64d6-4d65-9055-a8d3a2d12d61" valueTypeId="7ca8a60b-f225-4735-aba5-00fe7fc894d3"/>
+    <listType typeId="82041330-1e0d-4ffa-94af-e15a35d2b599" valueTypeId="a51eed26-02d3-4494-b638-c3b52993eaf1"/>
+    <managerType typeId="24748845-2c5a-416e-a55b-14a86f9ac0bf" valueTypeId="51505644-540a-491a-ac99-b8cb7afbada0"/>
+  </producedTypes>
+  <name>C2D_Вложения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вложения (C2D)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.C2D_Вложения.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.C2D_Вложения.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="1e4b56f3-1b92-4fd5-a3bc-36f156bf5b13">
+    <name>MimeType</name>
+    <synonym>
+      <key>ru</key>
+      <value>Mime type</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9e433b70-b75a-49f2-9959-05234fe49139">
+    <name>ХранилищеДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хранилище данных</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

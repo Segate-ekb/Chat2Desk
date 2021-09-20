@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="885650f8-06a6-445e-875f-7a5ee309b4f1">
+  <name>C2D_КоллекцияПиктограммПараметрыШаблонаСообщения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Коллекция пиктограмм параметры шаблона сообщения (C2D)</value>
+  </synonym>
+</mdclass:CommonPicture>

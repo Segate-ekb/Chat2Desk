@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8939ca8b-9306-414b-b2f3-024afb7144a3">
+  <name>C2D_attachements</name>
+  <synonym>
+    <key>ru</key>
+    <value>C2D_attachements</value>
+  </synonym>
+  <rootURL>c2d_attachments</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="ef49da0b-0aee-47f8-a40b-1a7ba242fe13">
+    <name>ПутьКВложению</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к вложению</value>
+    </synonym>
+    <template>/{ПутьКВложению}</template>
+    <methods uuid="7ea69f45-e715-4f01-8ebf-676fa2b31c10">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>ПутьКВложениюGET</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

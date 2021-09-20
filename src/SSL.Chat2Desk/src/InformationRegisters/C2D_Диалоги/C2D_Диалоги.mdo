@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="30d20189-5802-4e0f-9da9-d4fbc6f53920">
+  <producedTypes>
+    <selectionType typeId="09bbae22-5678-4287-9874-ee02355e490a" valueTypeId="b17c49ea-3a47-4f74-abf9-9f1790d0150e"/>
+    <listType typeId="34110f38-1f7e-4e3a-b6ac-b3c6e713f40d" valueTypeId="c438bbef-6887-4998-a746-a240b0195af6"/>
+    <managerType typeId="4af18daf-3ab6-452e-aa10-18e2fe1670e7" valueTypeId="6877fb0c-6b3c-487f-984e-67b05bff7862"/>
+    <recordSetType typeId="755759cf-b6c6-4993-9d57-5cc0397439b0" valueTypeId="5ff5ff80-9580-4c58-bb84-675689971a22"/>
+    <recordKeyType typeId="fdfc7fd1-b4d1-413c-b0c6-e11b93200afe" valueTypeId="89d0fb0b-77f0-48a7-9940-cc69509a6a58"/>
+    <recordType typeId="2d155ed1-c003-462f-8fad-0b11637e8be6" valueTypeId="18e899e3-0771-44ab-86ea-ba544f89bb15"/>
+    <recordManagerType typeId="a15d28dd-37f4-4634-953d-98bf691ce729" valueTypeId="2742b037-8190-4777-a538-182fab0bad56"/>
+  </producedTypes>
+  <name>C2D_Диалоги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Диалоги</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.C2D_Диалоги.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="3ab2ba5f-511b-4758-a710-7c5175d583ac">
+    <name>state</name>
+    <synonym>
+      <key>ru</key>
+      <value>State</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="2310425b-a185-412b-b7ce-e79424014669">
+    <name>operator_id</name>
+    <synonym>
+      <key>ru</key>
+      <value>Operator id</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="2faacc5c-d507-4968-861b-542bcc6afc9d">
+    <name>client_id</name>
+    <synonym>
+      <key>ru</key>
+      <value>Client id</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="625bd86b-bc0d-4473-a325-ec4d033e1bbc">
+    <name>transport</name>
+    <synonym>
+      <key>ru</key>
+      <value>Transport</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="20d8a2b8-564f-4e36-9068-26181943a3d4">
+    <name>id</name>
+    <synonym>
+      <key>ru</key>
+      <value>Id</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="f81d690a-df35-41ac-b5a3-b0c301dee5a8">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

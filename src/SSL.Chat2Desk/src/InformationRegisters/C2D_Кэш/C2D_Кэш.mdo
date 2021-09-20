@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5f44e7e0-6abc-4834-af3b-105c9c904811">
+  <producedTypes>
+    <selectionType typeId="3f7a75e5-2f6d-4164-a084-d6b4c5d7eb47" valueTypeId="5f3a89e1-7982-4574-8ea5-579f9138249a"/>
+    <listType typeId="2611484e-464e-4f9a-8876-860731e80a5c" valueTypeId="f34480c5-bfa7-4ec9-8d21-f2a366a7e14c"/>
+    <managerType typeId="ad02f5a8-3f9c-4ac5-b31f-0aff06f2b393" valueTypeId="1f040dfd-39fb-4080-bbe3-12ff41130854"/>
+    <recordSetType typeId="5cade618-b42a-4e60-9012-7a183e44f2b0" valueTypeId="d0f71d07-3c12-4d28-ab78-4686ca634f8c"/>
+    <recordKeyType typeId="52d8c687-2b45-48fe-9437-b5646ac9ee7c" valueTypeId="202ec4c2-ccc0-4fde-aa97-d35ef6d7dc73"/>
+    <recordType typeId="03231857-b999-47ee-a811-e823c5116eac" valueTypeId="a47098b2-ffa9-499a-b7ac-bfc201b95e17"/>
+    <recordManagerType typeId="00b04cc7-603b-4e17-9f54-77bfe3ac5323" valueTypeId="1fdcf9e5-3a7d-4bfc-8c17-77776df84c0b"/>
+  </producedTypes>
+  <name>C2D_Кэш</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кэш</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="ae817272-38b4-4ea3-810d-b9ad7443e3ff">
+    <name>ХранилищеКэша</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хранилище кэша</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c1ae30ee-f5a5-4382-8672-51e0fe42780d">
+    <name>ДатаХэширования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата хэширования</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="9a2a8d75-fcb7-41a1-98ce-175ce67676e1">
+    <name>ХэшЗапроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хэш запроса</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

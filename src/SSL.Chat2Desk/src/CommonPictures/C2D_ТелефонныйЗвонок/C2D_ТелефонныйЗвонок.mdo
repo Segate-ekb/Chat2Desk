@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d2cf0871-8ae4-4dd8-82ef-998c2fa860ce">
+  <name>C2D_ТелефонныйЗвонок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Телефонный звонок (C2D)</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+</mdclass:CommonPicture>

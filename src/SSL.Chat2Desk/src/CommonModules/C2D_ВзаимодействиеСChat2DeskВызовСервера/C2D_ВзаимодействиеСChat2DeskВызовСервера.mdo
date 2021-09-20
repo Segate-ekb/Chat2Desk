@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2e92f469-1d7a-4a7d-a099-95196f5b129c">
+  <name>C2D_ВзаимодействиеСChat2DeskВызовСервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>C2 d взаимодействие с chat2 desk вызов сервера</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

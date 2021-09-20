@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d90812d2-221c-4417-8a3d-9ccaea6568da">
+  <name>C2D_BasicHook</name>
+  <synonym>
+    <key>ru</key>
+    <value>Basic hook (c2d)</value>
+  </synonym>
+  <comment>обработка базовых хуков c2d</comment>
+  <rootURL>c2d_basichook</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="c0620b36-daff-44f6-9b71-f91ef281b775">
+    <name>БазовыйUrl</name>
+    <synonym>
+      <key>ru</key>
+      <value>Базовый url</value>
+    </synonym>
+    <template>/*</template>
+    <methods uuid="45781d23-2660-46a4-807a-75b47fec1c8d">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>БазовыйUrlPOST</handler>
+    </methods>
+    <methods uuid="2fece467-9101-4735-a7ef-e893aa0664ec">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <comment>Должен вернуть 200 код если доступен.</comment>
+      <handler>БазовыйUrlGET</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

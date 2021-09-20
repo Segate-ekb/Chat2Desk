@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bfc02c4c-95a3-4602-a397-397cb57793df">
+  <producedTypes>
+    <selectionType typeId="4dfc486b-5e1c-48bc-a0ae-02ce6d5c6312" valueTypeId="9275c604-c320-4c64-89e6-a5fa2da208c7"/>
+    <listType typeId="82982cf6-1b48-49f2-8933-bc26f9c86d9c" valueTypeId="e5094387-3cd1-416a-a8ae-2c90552a6f2b"/>
+    <managerType typeId="b52083a0-7c37-4171-886b-c8ba1288fe97" valueTypeId="6b75c5c5-d233-4171-8741-ce216af85c54"/>
+    <recordSetType typeId="8a1cda68-165e-4a26-be0f-ea56ed676ca3" valueTypeId="8e103e2d-d9cd-4b42-8827-3080dca5d99d"/>
+    <recordKeyType typeId="e49e711c-9c23-4da8-a236-bd49557d2096" valueTypeId="0b935fd0-49b5-4403-8d19-0e50c54876f8"/>
+    <recordType typeId="12228b94-9399-45c7-99de-db8f04d5dbd4" valueTypeId="61c38582-fff9-4d4f-a6be-91a907cd7be7"/>
+    <recordManagerType typeId="e8f38a2b-9169-43db-b5f9-0eac5d201c00" valueTypeId="a86f1e7e-9f93-40a3-a12c-f03acd4d8c1d"/>
+  </producedTypes>
+  <name>C2D_ТранспортыКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>C2 d транспорты клиентов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="9d895dd2-e069-43ab-afeb-080f006f5d84">
+    <name>client_id</name>
+    <synonym>
+      <key>ru</key>
+      <value>Client id</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e96af65b-593c-4058-838f-d3cda74146ab">
+    <name>transport</name>
+    <synonym>
+      <key>ru</key>
+      <value>Transport</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.C2D_Transports</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

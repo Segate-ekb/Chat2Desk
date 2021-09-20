@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aae20275-cd5a-4874-a2cb-e15555f85261">
+  <name>C2D_ИнтеграцияВКонфигурациюВызовСервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>C2 d интеграция в конфигурацию вызов сервера</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

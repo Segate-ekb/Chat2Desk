@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3ed61cc2-eafa-40d6-bcf1-a834c2e76ac2">
+  <producedTypes>
+    <selectionType typeId="cd56b6ae-1b56-4ab8-8067-85a193884e6a" valueTypeId="c848dc81-4404-4f5c-a851-cad3066c07aa"/>
+    <listType typeId="668199f5-eac5-4bdb-a8d7-1ad167f6eeec" valueTypeId="9c8d341c-5f18-409c-9480-08b9d4323421"/>
+    <managerType typeId="68779c36-0217-4f1a-94b7-7e48e4792896" valueTypeId="94fc1138-fa06-4948-94c0-8510ff62ca3f"/>
+    <recordSetType typeId="8be54a8c-7155-4926-8d12-3328a05f8688" valueTypeId="2e8114be-5310-425e-b44f-575530a312ad"/>
+    <recordKeyType typeId="85a32f31-07c0-4b79-881a-301407bccfbd" valueTypeId="e3b9b3e5-16d7-4065-80b7-e7f2a0bcfdbe"/>
+    <recordType typeId="8d004358-732e-4def-bce5-e7c1726aa517" valueTypeId="d2e2b3a3-d1a9-408f-9ac6-6cf5f5bca135"/>
+    <recordManagerType typeId="bc35355d-9af2-49b1-af6c-74e86fdb6798" valueTypeId="aa2cb2b6-1325-4964-8e8f-5191d4a00e1f"/>
+  </producedTypes>
+  <name>C2D_ТипыКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы клиентов</value>
+  </synonym>
+  <comment>Регистр будет хранить данные о выбранных типах которые могут быть ассоциированы с клиентами</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.C2D_ТипыКлиентов.Form.EditTypeУправляемое</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="6816c42b-3cd2-456c-ac81-49636f2a5ce7">
+    <name>Типы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Типы</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="9e0d9855-d43c-442a-b376-240e4c4e4039">
+    <name>Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="791e3733-6af1-40b9-b4a4-cd5ddaec69f7">
+    <name>EditTypeУправляемое</name>
+    <comment>Версия 1.3 (со сменой представления списка типов)</comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="cbf597a3-6dd6-4d14-801c-bf058ec831a2">
+    <name>ОткрытьФормуИзмененияТипов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Типы клиентов</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>PictureAndText</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Открыть форму выбора типов объектов, которые могут быть сопоставлены с клиентами из chat2desk</value>
+    </toolTip>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.UserWithoutNecessaryProperties</picture>
+    </picture>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:InformationRegister>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1379c1a1-1001-4041-b7fc-014bd0c8712c">
+  <producedTypes>
+    <selectionType typeId="fe1a0242-a1c6-40a7-b5df-4deaa29de487" valueTypeId="d72391f3-8221-4b1d-8b13-c1a68f887527"/>
+    <listType typeId="a74e8d17-1849-495a-82fa-bbbdc2d3136c" valueTypeId="21252c0f-a809-4ff9-9493-4cf484581e83"/>
+    <managerType typeId="6366604a-38cf-4cc2-92c5-9132c2654768" valueTypeId="1a1d0ba3-76c2-4382-b1be-98a790470c59"/>
+    <recordSetType typeId="36b6a25d-1de0-4f41-8e91-f88e1678c516" valueTypeId="c73fc860-9e74-48af-93d7-9a94ba525a7d"/>
+    <recordKeyType typeId="522f6991-5d47-437b-9d4f-e8cdaca73c21" valueTypeId="64badba0-ffd6-4767-b4c9-2fa8d058ebca"/>
+    <recordType typeId="6b7243c1-dd95-4fb9-ab73-eb855e0cf86d" valueTypeId="0495c55c-1d72-4e62-bbc1-68bd2808b978"/>
+    <recordManagerType typeId="41c45e1d-1cd7-45ae-9814-e04dd38b0e24" valueTypeId="1f75075b-efa8-465d-a85f-7de9fe9fa035"/>
+  </producedTypes>
+  <name>C2D_ОповещенияОператоров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оповещения операторов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="a89320e7-51ab-4aa8-a992-b8125d1cd6f2">
+    <name>Оповещен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оповещен</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c8e0f142-65d4-4d70-a04a-fbb5c21755dc">
+    <name>Прочитано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочитано</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="4a7a21fd-b592-4faf-8bb3-765baa0eded5">
+    <name>Operator_id</name>
+    <synonym>
+      <key>ru</key>
+      <value>Operator id</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e8860124-e1b9-4629-8c4c-ac588e710122">
+    <name>IDСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>ID Сообщения</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

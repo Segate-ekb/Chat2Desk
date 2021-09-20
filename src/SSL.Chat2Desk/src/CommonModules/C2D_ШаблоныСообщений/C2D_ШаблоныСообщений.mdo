@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cf914690-1fab-41f8-9366-987603d83c1a">
+  <name>C2D_ШаблоныСообщений</name>
+  <synonym>
+    <key>ru</key>
+    <value>C2 d шаблоны сообщений</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

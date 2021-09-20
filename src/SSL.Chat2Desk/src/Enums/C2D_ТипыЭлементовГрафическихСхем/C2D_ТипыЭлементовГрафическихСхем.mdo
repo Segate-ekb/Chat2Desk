@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2ae030d8-003f-4eef-ad67-2bcc1ae5d858">
+  <producedTypes>
+    <refType typeId="de90a6ff-07d0-4d12-a629-3a352ff2b66e" valueTypeId="2df1c7b6-0bef-46be-818e-e4fe1f918dd9"/>
+    <listType typeId="71c85445-d145-47a7-9369-36aa0f0e4490" valueTypeId="6de765e7-56cb-4533-b97c-ed58de0dd9b0"/>
+    <managerType typeId="6033c8a2-ec07-43ba-8c2f-7e7a9662b23f" valueTypeId="dc2eab19-60c6-4e27-8dbb-5b72f456b860"/>
+  </producedTypes>
+  <name>C2D_ТипыЭлементовГрафическихСхем</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы элементов графических схем</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6ed8a51c-98aa-4fa9-bce9-3f3687b87306">
+    <name>Декорация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Декорация</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d8c7d909-10f6-4688-80cb-a9bfa196405f">
+    <name>Линия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Линия</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3659c6e3-74d2-4271-8d43-1f10ae8cf83e">
+    <name>Старт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Старт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2580e1ca-9474-4b41-8b40-cadf4238a321">
+    <name>Завершение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завершение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="710087e8-f764-446c-a0ec-49e13f82fedc">
+    <name>Условие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Условие</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="608014e5-5ee3-4950-bf6b-f377fba7d373">
+    <name>Действие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действие</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="445ee838-d139-4611-ad10-8bb69fed505f">
+    <name>ВыборВарианта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор варианта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2ed9afd7-630b-4d4e-b24e-412ded371a17">
+    <name>Разделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разделение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="66a56bbd-ecfb-41fb-9186-1aebdf59c725">
+    <name>Слияние</name>
+    <synonym>
+      <key>ru</key>
+      <value>Слияние</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="de0bad26-8cc0-4fcd-b6cd-c7c8ad49933d">
+    <name>ТочкаОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Точка обработки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ee0f8ab9-d68f-4bec-b6b8-be1c8d2d6a0e">
+    <name>ВложенныйБизнесПроцесс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вложенный бизнес-процесс</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

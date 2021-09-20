@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="75a90ca0-e411-4003-aec1-46c8e6eff291">
+  <name>c2d_add_webhook</name>
+  <synonym>
+    <key>ru</key>
+    <value>additional webhook (C2D)</value>
+  </synonym>
+  <comment>Http сервис для создания произвольных вебхуков</comment>
+  <rootURL>c2d_add_webhook</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="7c12360e-3012-4941-aec1-fbb1f9221052">
+    <name>c2d_add_webhook</name>
+    <synonym>
+      <key>ru</key>
+      <value>add_webhook (C2D)</value>
+    </synonym>
+    <template>/v1/{ИмяМетода}</template>
+    <methods uuid="c658d29b-e78c-4d1a-b2ec-06839af4f914">
+      <name>ПроизвольныйМетод</name>
+      <synonym>
+        <key>ru</key>
+        <value>Произвольный метод</value>
+      </synonym>
+      <httpMethod>Any</httpMethod>
+      <handler>c2d_add_webhook</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

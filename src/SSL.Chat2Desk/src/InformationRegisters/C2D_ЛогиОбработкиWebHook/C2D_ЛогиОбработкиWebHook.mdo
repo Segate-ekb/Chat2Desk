@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4899efe0-d95f-421c-b0ce-3e8aeafdd32f">
+  <producedTypes>
+    <selectionType typeId="e6dd4e3e-4cb9-47bd-9f77-57aab031276c" valueTypeId="0ddce65a-fdc0-4fa8-acda-dceb93dfdde6"/>
+    <listType typeId="03af41ae-2371-4dac-8e6d-3d646941eff3" valueTypeId="f5d87662-17ec-4776-a5fb-090e2c9b7799"/>
+    <managerType typeId="5a4ad412-3b8b-4cd3-bdb0-4892dd41fca0" valueTypeId="689083ee-a31e-4ee0-84e6-8dffbe31bfc6"/>
+    <recordSetType typeId="cad47002-6c87-4e54-868c-1d85bf6c5f07" valueTypeId="66d9eee2-8eda-4b2f-b4df-1d416abbfa5d"/>
+    <recordKeyType typeId="ab3c0182-246f-47ca-83f2-f4aff8d81bd1" valueTypeId="0922d45b-e27a-4bbe-9786-e8a65bd95ba1"/>
+    <recordType typeId="cfead22c-b78c-4c79-9226-f2310bc42cff" valueTypeId="fb51e015-9fa7-4c38-994f-9d9be0f1569b"/>
+    <recordManagerType typeId="20f7a4d8-891a-4a54-9333-1824d84cef91" valueTypeId="700410e0-48fa-4cdb-96a3-fd4dca868359"/>
+  </producedTypes>
+  <name>C2D_ЛогиОбработкиWebHook</name>
+  <synonym>
+    <key>ru</key>
+    <value>C2 d логи обработки web hook</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="6f396473-97c9-47f5-8d38-2b6efad6ff39">
+    <name>КоличествоУспешныхОбработок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество успешных обработок</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="44e7c656-73aa-4468-851f-e60127fff645">
+    <name>КоличествоНеудачныхОбработок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество неудачных обработок</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="ec1d3a39-19d5-4225-881c-13eb6230de62">
+    <name>ХэшПакета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хэш пакета</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="17f01f61-da4e-4ac5-8f9b-f772d82c6ff4">
+    <name>ТипХука</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип хука</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
